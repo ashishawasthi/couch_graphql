@@ -1,0 +1,10 @@
+type Query {
+    stirtConfig(id: ID): StirtConfig
+}
+
+type StirtConfig {
+    id: ID
+    ndfCurveWeights: String
+    ndfJumpsAndTurns: String
+    ndfOverride: String
+}
